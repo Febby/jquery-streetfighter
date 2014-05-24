@@ -24,13 +24,15 @@ function playPose () {
   }
 }
 
-// Ryu Function
+//Entrance animation
 function Entrance(){
 	$('body').addClass('animated fadeIn');
 	$('#down').addClass('animated bounceInDown');
-	$('.ryu').addClass('animated fadeInLeft');
+	$('.ryu').addClass('animated fadeInLeftBig');
 	$('.guide').addClass('animated bounceInUp');
 }
+
+// Ryu Function
 function GoRyu () {
 	//when user hover over
 	$('.ryu').mouseenter(function() {
